@@ -78,6 +78,6 @@ WantedBy=timers.target
 3. To start backup-service `sudo systemctl start backup.service`
 4. Check status of service `sudo systemctl status backup.service`
 5. Enable backup-service `sudo systemctl enable --now backup.service`
-6. Enable backup-timer `sudo enable --now backup.timer
+6. Enable backup-timer `sudo enable --now backup.timer`
 7. Check if backup-timer is running/active `systemctl list-timer`
 
